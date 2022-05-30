@@ -1,0 +1,19 @@
+.content-radio-input {
+    label {
+        font-family: $font-default;
+        font-size: 10pt;
+    }
+
+    label:not(:first-child) {
+        cursor: pointer;
+
+    }
+    .input-checkbox {
+        background-color: $color-second-2;
+        color: $color-second-7;
+        border-radius: 5px;
+        box-shadow: 1px 2px 3px $color-second-3;
+        font-family: $font-default;
+        font-size: 10pt;
+    }
+}

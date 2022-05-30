@@ -1,0 +1,18 @@
+.progress-bar-content {
+    font-family: $font-default;
+    font-weight: 500;
+    font-size: 13pt;
+    color: $color-primary;
+
+    .content-progress {
+        background-color: $color-second-2;
+        height: 20px;
+        border-radius: $border-radius-default;
+
+        .progress {
+            background-color: $color-primary;
+            border-radius: $border-radius-default;
+            width: calc(100% / 2);
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.content-input {
+    font-family: $font-default;
+    font-size: 10pt;
+
+    .input {
+        border: 1px solid $color-primary;
+        border-radius: $border-radius-default;
+        padding: 6px 10px;
+        background-color: $color-second-1;
+        width: 100%;
+    }
+
+    input.input {
+        text-indent: 10px;
+        color: $color-second-7;
+    }
+
+    input.input::placeholder {
+        color: $color-second-4;
+    }
+    
+    select.input {
+        color: $color-second-4;
+        
+        option:first-child() {
+            color: $color-second-4;
+        }
+
+        option {
+            background: $color-second-1;
+            color: $color-second-7;
+        }
+        
+    }
+
+    .input-money-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: $font-default;
+        background-color: $color-primary;
+        color: $color-second-1;
+        border-bottom-left-radius: $border-radius-default;
+        border-top-left-radius: $border-radius-default;
+        font-weight: bolder;
+    }
+}

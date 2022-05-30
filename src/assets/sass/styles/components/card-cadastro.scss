@@ -1,0 +1,57 @@
+.back-button-action {
+    cursor: pointer;
+
+    i {
+        font-size: 20px;
+        color: $color-primary;
+    }
+}
+
+.card-cadastro {
+    background-color: $color-second-1;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px $color-second-4;
+
+    h2 {
+        font-family: $font-title;
+        color: $color-primary;
+        font-weight: 600;
+    }
+
+    h5 {
+        font-family: $font-default;
+        color: $color-second-7;
+    }
+
+    button {
+        font-family: $font-title;
+        border-radius: 13px;
+        cursor: pointer;
+    }
+
+    .btn-next {
+        background-color: $color-primary;
+        color: $color-second-1;
+        font-size: 13pt;
+        font-weight: bolder;
+    }
+    
+    .btn-cadastro {
+        background-color: $color-cta-0;
+        color: $color-second-7;
+        font-size: 13pt;
+        font-weight: bolder;
+    }
+
+    .btn-second {
+        color: $color-primary;
+        background-color: $color-second-1;
+        font-size: 12pt;
+        font-weight: bold;
+    }
+
+    img {
+        max-height: 366px;
+        max-width: 100%;
+    }
+}
