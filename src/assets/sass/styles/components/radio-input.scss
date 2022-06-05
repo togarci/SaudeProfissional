@@ -16,4 +16,10 @@
         font-family: $font-default;
         font-size: 10pt;
     }
+
+    .error-input {
+        color: $color-danger;
+        border-color: $color-danger;
+        font-size: 11pt;
+    }
 }

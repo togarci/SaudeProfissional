@@ -10,6 +10,15 @@
         width: 100%;
     }
 
+    .default-input {
+        border-color: $color-primary;
+    }
+    
+    .error-input {
+        color: $color-danger;
+        border-color: $color-danger;
+    }
+
     input.input {
         text-indent: 10px;
         color: $color-second-7;
@@ -30,7 +39,6 @@
             background: $color-second-1;
             color: $color-second-7;
         }
-        
     }
 
     .input-money-icon {

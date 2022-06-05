@@ -11,37 +11,38 @@
                 <div class="flex-column">
                     <div class="col-md-12 p-0 mt-4 m-0">
                         <b>Nome Completo</b>
-                        <p>Thyago Odorico Garcia</p>
+                        <p>{{ dataProfissional.nome }}</p>
                     </div>
 
                     <div class="col-md-12 p-0 mt-4 m-0">
                         <b>CPF</b>
-                        <p>455.435.312-20</p>
+                        <p>{{ dataProfissional.cpf }}</p>
                     </div>
 
                     <div class="col-md-12 p-0 mt-4 m-0">
                         <b>Número de celular ou telefone</b>
-                        <p>(12) 99749-4938</p>
+                        <p>{{ dataProfissional.cel }}</p>
                     </div>
 
                     <div class="col-md-12 p-0 mt-4 m-0">
                         <b>Estado/Cidade</b>
-                        <p>São Paulo - Jacareí</p>
+                        <p>{{ `${dataProfissional.estadoDescricao} - ${dataProfissional.cidadeDescricao}` }}</p>
                     </div>
 
                     <div class="col-md-12 p-0 mt-4 m-0">
                         <b>Especialidade principal</b>
-                        <p>Neorologista</p>
+                        <p>{{ dataAtendimento.especialidadeDescricao }}</p>
                     </div>
 
                     <div class="col-md-12 p-0 mt-4 m-0">
                         <b>Preço da consulta</b>
-                        <p>R$ 200,00</p>
+                        <p>{{ dataAtendimento.vlConsulta }}</p>
                     </div>
 
                     <div class="col-md-12 p-0 mt-4 m-0">
                         <b>Formas de pagamento da consulta</b>
-                        <p>Dinheiro</p>
+                        <p v-if="['Dinheiro', 'Pix'].includes(dataAtendimento.formaPagamento)">{{ dataAtendimento.formaPagamento }}</p>
+                        <p v-else >{{ `Cartão de crédito - Parcelamento em ${dataAtendimento.formaPagamento}` }}</p>
                     </div>
                 </div>
             </template>
@@ -57,6 +58,18 @@ import imgDesk3 from '@/assets/imgs/desktop-pagina-3.png';
 export default {
     components: {
         CardCadastro
+    },
+    computed: {
+        dataProfissional: {
+            get() {
+                return this.$store.state.dataProfissional;
+            }
+        },
+        dataAtendimento: {
+            get() {
+                return this.$store.state.dataAtendimento;
+            }
+        }
     },
     data() {
         return {

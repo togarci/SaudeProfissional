@@ -26,7 +26,12 @@
     button {
         font-family: $font-title;
         border-radius: 13px;
+        outline: none;
         cursor: pointer;
+    }
+
+    button:focus {
+        outline: none;
     }
 
     .btn-next {

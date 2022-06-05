@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import App from './App.vue';
 import routes from './routes';
+import store from './store/store';
 import VeeValidate from 'vee-validate';
 
 import '@/assets/sass/main.scss';
@@ -26,6 +27,7 @@ const router = new VueRouter({
 });
 
 new Vue({
+  store,
   render: h => h(App),
   router
 }).$mount('#app')
