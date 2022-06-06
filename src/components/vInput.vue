@@ -15,7 +15,7 @@
 		</template>
 		<template v-else-if="type === 'money'">
 			<div class="d-flex col-md-12 p-0 m-0">
-				<div class="input-money-icon col-md-1 pr-3 pl-3 m-0">R$</div>
+				<div class="input-money-icon col-auto pr-3 pl-3 m-0">R$</div>
 				<input
 					class="input"
 					type="text"

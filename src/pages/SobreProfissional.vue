@@ -1,5 +1,5 @@
 <template>
-    <div class="col-md-8 col-sm-12 p-sm-0 m-sm-0">
+    <div class="d-flex justify-content-center col-md-11 col-12 p-0 m-0">
         <card-cadastro
             :title="'Sobre o profissional'"
             :subTitle="'Dados do profissional'"
@@ -22,7 +22,7 @@
                         ></v-input>
                     </div>
 
-                    <div class="col-md-8 p-0 mt-4 m-0">
+                    <div class="col-8 p-0 mt-4 m-0">
                         <v-input
                             :label="'CPF'"
                             :placeholder="'Digite um CPF'"
@@ -34,7 +34,7 @@
                             v-validate="{ required: true }"
                         ></v-input>
                     </div>
-                    <div class="col-md-8 p-0 mt-4 m-0">
+                    <div class="col-8 p-0 mt-4 m-0">
                         <v-input
                             :label="'Número de celular'"
                             :placeholder="'(00) 0 0000-0000'"
@@ -46,8 +46,8 @@
                             v-validate="{ required: true }"
                         ></v-input>
                     </div>
-                    <div class="row mt-4 pt-0">
-                        <div class="col-md-6">
+                    <div class="row pt-0">
+                        <div class="col-6 mt-4">
                             <v-input
                                 :label="'Estado'"
                                 :type="'select'"
@@ -67,7 +67,7 @@
                                 </template>
                             </v-input>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-6 mt-4">
                             <v-input
                                 :label="'Cidade'"
                                 :placeholder="'Selecione'"

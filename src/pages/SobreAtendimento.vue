@@ -1,5 +1,5 @@
 <template>
-    <div class="col-md-8 col-sm-12 p-sm-0 m-sm-0">
+    <div class="d-flex justify-content-center col-md-11 col-12 p-0 m-0">
         <card-cadastro
             :title="'Sobre o atendimento'"
             :subTitle="'Detalhes do atendimento'"

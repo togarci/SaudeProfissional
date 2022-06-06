@@ -3,7 +3,7 @@
         <div class="content-progress col-md-9 p-0 m-0">
             <div class="progress p-0 m-0 h-100"  :class="currentPage === 1 ? 'col-md-6' : 'col-md-12'"></div>
         </div>
-        <div class="col-md-auto"> {{ currentPage }} de {{ totalPages }} </div>
+        <div class="col-auto"> {{ currentPage }} de {{ totalPages }} </div>
     </div>
 </template>
 
