@@ -1,5 +1,5 @@
 <template>
-    <div class="content-resumo col-md-11 col-12 p-0 m-0">
+    <div class="content-resumo d-flex justify-content-center col-md-11 col-12 p-0 m-0">
         <card-cadastro
             :title="'Revisão do cadastro'"
             :showBackButton="true"
