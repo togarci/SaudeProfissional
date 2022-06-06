@@ -1,5 +1,5 @@
 <template>
-	<div class="container-base d-flex justify-content-center align-items-center">
+	<div class="container-base d-flex justify-content-center">
 		<zoom-center-transition :duration="200" mode="out-in">
 			<router-view/>
 		</zoom-center-transition>

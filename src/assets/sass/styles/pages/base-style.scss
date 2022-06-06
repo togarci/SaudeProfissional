@@ -4,4 +4,10 @@
     min-height: 100vh;
     height: auto;
     background-color: $color-cta-1;
+    align-items: center;
+
+
+    @media(max-width: 770px) {
+        align-items: flex-end;
+    }
 }

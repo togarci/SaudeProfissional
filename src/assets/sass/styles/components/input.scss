@@ -28,17 +28,9 @@
         color: $color-second-4;
     }
     
+
     select.input {
         color: $color-second-4;
-        
-        option:first-child() {
-            color: $color-second-4;
-        }
-
-        option {
-            background: $color-second-1;
-            color: $color-second-7;
-        }
     }
 
     .input-money-icon {
