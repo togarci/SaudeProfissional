@@ -17,6 +17,10 @@ Este projeto teste oferecido pela Fácil Consulta.
 * Bootstrap 5
 * Axios
 
+## Requisitos
+
+Para execução deste projeto é necessario da instalação do Node e Vue CLI na versão 2.
+
 ## Instalação
 ```
 npm install
