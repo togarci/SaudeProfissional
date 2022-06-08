@@ -16,9 +16,7 @@ Este projeto teste oferecido pela Fácil Consulta.
 * Vee Validate
 * Bootstrap 5
 * Axios
-## Requisitos
 
-Para execução deste projeto é necessario da instalação do Node que pode ser encontrado [aqui](https://nodejs.org/en/) e uma API_KEY que pode ser obtida no [TMDB](https://developers.themoviedb.org/3/getting-started/introduction)
 ## Instalação
 ```
 npm install
