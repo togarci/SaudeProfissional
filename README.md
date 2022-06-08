@@ -35,14 +35,16 @@ npm run serve
 
 ### Desktop
 ![TelaDeskPage1](/public/readme/Desktop-page1.png)
-</br>
+<br>
 ![TelaDeskPage2](/public/readme/Desktop-page2.png)
-</br>
+<br>
 ![TelaDeskPage3](/public/readme/Desktop-page3.png)
 
 
 ### Mobile
-![TelaPage1](/public/readme/mobile.png)
+![TelaPage1](/public/readme/mobile-page-1.png)
+![TelaPage2](/public/readme/mobile-page-2.png)
+![TelaPage3](/public/readme/mobile-page-3.png)
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
