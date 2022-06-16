@@ -4,6 +4,7 @@ import App from './App.vue';
 import routes from './routes';
 import store from './store/store';
 import VeeValidate from 'vee-validate';
+import Toasted from 'vue-toasted';
 
 import '@/assets/sass/main.scss';
 import 'bootstrap/scss/bootstrap.scss';
@@ -19,6 +20,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false;
 Vue.use(VueRouter);
 Vue.use(VeeValidate, { fieldsBagName: 'veeFields', locale: 'ptBr' });
+Vue.use(Toasted);
 
 const router = new VueRouter({
     mode: 'history',

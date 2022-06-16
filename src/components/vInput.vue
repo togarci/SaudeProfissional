@@ -105,11 +105,6 @@ export default {
 
 			this.$emit('input', value);
 		}
-	},
-	watch: {
-		error() {
-			console.log('teste');
-		}
 	}
 }
 </script>
